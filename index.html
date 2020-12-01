@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="header">Calculator</h1>
+            <input id="input">
+
+            <div>
+                <button id="block7" onclick="calculate(event)">7</button>
+                <button id="block8" onclick="calculate(event)">8</button>
+                <button id="block9" onclick="calculate(event)">9</button>
+                <button id="plus" onclick="calculate(event)">+</button>
+            </div>
+            <div>
+                <button id="block4" onclick="calculate(event)">4</button>
+                <button id="block5" onclick="calculate(event)">5</button>
+                <button id="block6" onclick="calculate(event)">6</button>
+                <button id="minus" onclick="calculate(event)">-</button>
+            </div>
+            <div>
+                <button id="block1" onclick="calculate(event)">1</button>
+                <button id="block2" onclick="calculate(event)">2</button>
+                <button id="block3" onclick="calculate(event)">3</button>
+                <button id="multiply"onclick="calculate(event)">*</button>
+            </div>
+            <div>
+                <button id="ans" onclick="ans(event)">=</button>
+                <button id="block0" onclick="calculate(event)">0</button>
+                <button id="dot" onclick="calculate(event)">.</button>
+                <button id="divide" onclick="calculate(event)">/</button>
+            </div>
+            <div>
+                <button id="clear" onclick="clearInput()">CE</button>
+                <button id="clr" onclick="reset()">reset</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
